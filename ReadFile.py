@@ -9,13 +9,14 @@ def readFile(fileName):
             'Webpage': 'https://recreation.utoronto.ca/Program/GetProgramDetails?courseId=ca92214b-0334-4e97-a60e-2144af28e435&semesterId=0ceb5a30-42f1-4069-a97b-5e015b379e14',
             'UTORid': 'username',
             'Password': 'password',
-            'AutoReload': True
+            'AutoReload': True,
+            'AutoStart': False
         }  # note the AutoReload is a boolean not a string
     else:
         dic = {
             'BookingDate': 'Saturday, December 4, 2021',
             'BookingTime': '3:15 PM - 4:00 PM',
-            'StartTime': [2021, 12, 4, 15, 15],  # in yyyy,mon,day,hr,min
+            'StartTime': [2021, 12, 8, 12, 15],  # in yyyy,mon,day,hr,min
             'ConfirmBooking': True
         }
     return dic

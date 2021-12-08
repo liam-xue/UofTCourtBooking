@@ -2,3 +2,4 @@ Webpage: https://recreation.utoronto.ca/Program/GetProgramDetails?courseId=ca922
 UTORid: username
 Password: password
 AutoReload: True
+AutoStart: False
