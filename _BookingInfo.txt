@@ -1,4 +1,4 @@
-Webpage: https://recreation.utoronto.ca/Program/GetProgramDetails?courseId=ca92214b-0334-4e97-a60e-2144af28e435&semesterId=0ceb5a30-42f1-4069-a97b-5e015b379e14
+Webpage: https://recreation.utoronto.ca/Program/GetProgramDetails?courseId=d2a36cd8-bbb1-488d-bdbd-6b7ed1302390&semesterId=0ceb5a30-42f1-4069-a97b-5e015b379e14
 UTORid: username
 Password: password
 AutoReload: False

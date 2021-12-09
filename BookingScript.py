@@ -54,10 +54,12 @@ def main():
     except:
         outputError('LOGIN_BUTTON_ERROR')
     try:    # if the password incorrect error is seen, show this error msg
-        WebDriverWait(driver,1).until(EC.presence_of_element_located((By.XPATH, "//p[@class='form-element form-error']")))
+        WebDriverWait(driver,5).until(EC.presence_of_element_located((By.XPATH, "//p[@class='form-element form-error']")))
         outputError('LOGIN_CREDENTIAL_ERROR')
     except:
         pass
+
+    wait = WebDriverWait(driver, 30) # setup wait timer
 
     cur_time = datetime.datetime.now()
     while cur_time - refresh_time < datetime.timedelta(0):
