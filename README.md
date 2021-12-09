@@ -1,5 +1,5 @@
 # UofTCourtBooking
-UofTCourtBooking is written in collaboration between Liam Xue and Evan Chan. The entire script is open source, feel free to inspect and modify for other purposes. 
+UofTCourtBooking (UTCB) is written in collaboration between Liam Xue and Evan Chan. The entire script is open source, feel free to inspect and modify for other purposes. 
 
 This code may require usename and password to complete the action, but the content will only be passed to the website specified by the user. However, UTCB comes with absolute NO WARRANTY, and may automatically install well-known python packages and alter Windows Task Scheduler. Use at your own risk. 
 
