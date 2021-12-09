@@ -32,10 +32,12 @@ The files ending with `.bat` is Windows batch file that will run the Python scri
 
 `Run.bat` runs the main program; `Run_CheckFile.bat` checks if the input text files are understandable by the script; `Run_ScheduleTask.bat` schedules the task with windows. 
 
-**Fill in the correct date and time before running any of the scripts. Scheduled tasks cannot be cancelled by the script due to Windows premission issue. **
+**Fill in the correct date and time before running any of the scripts. Scheduled tasks cannot be cancelled by the script due to Windows premission issue.**
 
 ## Known bugs
 1. ConfirmBooking not implemented correctly. 
 2. Notify user when input text file is incorrect -- not yet implemented. 
+3. Fail to self start when computer is on battery power
+4. stability issue - fail to find button sometimes; fail to refresh in time.
 
 For more issues and bugs please contact Liam. 
