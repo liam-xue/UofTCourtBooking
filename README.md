@@ -1,7 +1,9 @@
 # UofTCourtBooking
-UofTCourtBooking (UTCB) is written in collaboration between Liam Xue and Evan Chan. The entire script is open source, feel free to inspect and modify for other purposes. 
+UofTCourtBooking (UTCB) is written in collaboration between Liam and Evan. The entire script is open source, feel free to inspect and modify for other purposes. 
 
 This code may require usename and password to complete the action, but the content will only be passed to the website specified by the user. However, UTCB comes with absolute NO WARRANTY, and may automatically install well-known python packages and alter Windows Task Scheduler. Use at your own risk. 
+
+Most code comments are non-existance, and some (well, pretty much all) credits are not given. If this is any concern to you, please let us know!
 
 ## Prerequisite for the script
 The script requires:
@@ -36,4 +38,4 @@ The files ending with `.bat` is Windows batch file that will run the Python scri
 1. ConfirmBooking not implemented correctly. 
 2. Notify user when input text file is incorrect -- not yet implemented. 
 
-For more issues and bugs please contact Liam Xue. 
+For more issues and bugs please contact Liam. 
